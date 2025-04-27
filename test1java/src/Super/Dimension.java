@@ -35,8 +35,8 @@ public class Dimension {
 		return "Dimension [Alto=" + Alto + ", Ancho=" + Ancho + ", Profundidad=" + Profundidad + "]";
 	}
 	
-	public void Volumen(){
+	public double Volumen(){
 		double volumen = Alto * Ancho * Profundidad;
-		System.out.println("El volumen de "+Alto+", "+Ancho+" y "+Profundidad+" es "+ volumen);
+		return volumen;
 	}
 }

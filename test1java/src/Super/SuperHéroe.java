@@ -12,11 +12,6 @@ public class SuperHéroe {
 		this.Capa = capa;
 	}
 	
-	public void se_choca() 
-	{
-		System.out.println("El "+this.Nombre+" Se choca contra el iceberg");
-	}
-	
 	public String getNombre() {
 		return Nombre;
 	}
